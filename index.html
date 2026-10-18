@@ -1,83 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sangharaj Sasane — Software Engineer | Backend, Cloud &amp; GenAI Systems</title>
+  <meta name="description" content="Software Engineer with 3+ years at NTT DATA shipping Python serverless automation on AWS and production GenAI (LangChain, RAG). 70% manual workload cut, 99.9% API uptime. Open to SWE roles." />
+  <meta name="author" content="Sangharaj Sasane" />
+  <meta name="theme-color" content="#0a0e1a" />
+  <meta property="og:title" content="Sangharaj Sasane — Software Engineer" />
+  <meta property="og:description" content="Backend, cloud automation & GenAI systems in production. 70% manual workload cut · 99.9% uptime · 35% MTTR reduction. Open to opportunities." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://sangharajsasane.example.dev/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%236366f1'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'>S</text></svg>" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sangharaj Sasane",
+    "jobTitle": "Software Engineer",
+    "email": "mailto:sangharajsasane99@gmail.com",
+    "telephone": "+91-93720-12510",
+    "address": { "@type": "PostalAddress", "addressLocality": "Mumbai", "addressCountry": "IN" },
+    "alumniOf": "K.C. College of Engineering, Mumbai University",
+    "knowsAbout": ["Python", "AWS", "Serverless", "LangChain", "RAG", "LLM", "FastAPI", "Spring Boot", "React", "Terraform", "CI/CD"],
+    "sameAs": [
+      "https://linkedin.com/in/sangharaj-sasane-bb64a5307",
+      "https://github.com/Sangharaj1"
+    ]
+  }
+  </script>
 </head>
 <body>
-    <header>
-        <h1>Sangharaj Sasane</h1>
-        <h2>Software Engineer</h2>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#experience">Work Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+  <a class="skip-link" href="#top">Skip to content</a>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo" aria-label="Home">SS<span class="dot">.</span></a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#strengths">Strengths</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-cta">Hire Me</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-top reveal">
+          <picture>
+            <source srcset="profile.webp" type="image/webp" />
+            <img class="hero-photo" src="profile.jpg" alt="Portrait of Sangharaj Sasane" width="900" height="900" />
+          </picture>
+          <div>
+            <p class="hello">Hi, my name is</p>
+            <span class="pill"><span class="pulse" aria-hidden="true"></span> Open to software engineering roles</span>
+          </div>
+        </div>
+        <h1 class="name reveal">Sangharaj Sasane<span class="dot">.</span></h1>
+        <h2 class="tagline reveal">I build reliable backend &amp; GenAI systems that turn hours of manual work into minutes.</h2>
+        <p class="intro reveal">
+          Software Engineer with 3+ years at NTT DATA shipping Python serverless automation on AWS
+          and production LLM systems with LangChain and RAG. I care about the things product teams
+          care about — <strong>reliability, scale, and measurable impact</strong>: 70% less manual
+          workload, 99.9% API uptime, 35% faster incident recovery.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="Sangharaj_Sasane_Resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost">Download resume</a>
+          <a href="https://github.com/Sangharaj1" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
+        </div>
+        <div class="stats reveal" role="list">
+          <div class="stat" role="listitem">
+            <span class="stat-num" data-count="70" data-suffix="%">70%</span>
+            <span class="stat-label">Manual ops workload eliminated</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat-num" data-count="99.9" data-suffix="%">99.9%</span>
+            <span class="stat-label">Uptime across 10+ microservices</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat-num" data-count="35" data-suffix="%">35%</span>
+            <span class="stat-label">Faster incident recovery (MTTR)</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat-num" data-count="60" data-suffix="%">60%</span>
+            <span class="stat-label">Less analyst intervention</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="section-index">01.</span> About me</h2>
+        <div class="about-grid reveal">
+          <div class="about-text">
+            <p>
+              I'm a Software Engineer based in Mumbai, India, currently at NTT DATA as a Networking
+              Managed Services Engineer focused on Cloud Automation &amp; GenAI — operating production
+              systems where reliability isn't optional.
+            </p>
+            <p>
+              Day to day I own AWS Lambda serverless automation, LangChain pipelines that analyze
+              incidents and generate reports, and REST APIs across 10+ microservices. Outside work I
+              build GenAI systems end-to-end — tool-using agents, RAG over policy documents, and
+              structured-output LLM apps with validation and retries — because that's where I think
+              the next decade of software is being built.
+            </p>
+            <p>
+              Three Oracle Cloud professional certifications (Generative AI, Developer, DevOps) and a
+              B.E. in Computer Science at 8.50 CGPA. <strong>I'm open to SWE roles at product-minded
+              teams</strong> where I can own problems end-to-end and grow fast.
+            </p>
+            <div class="about-links">
+              <a href="Sangharaj_Sasane_Resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost">Full resume →</a>
+              <a href="https://linkedin.com/in/sangharaj-sasane-bb64a5307" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn ↗</a>
+            </div>
+          </div>
+          <div class="about-card">
+            <picture>
+              <source srcset="profile.webp" type="image/webp" />
+              <img src="profile.jpg" alt="Portrait of Sangharaj Sasane" width="900" height="900" />
+            </picture>
+            <ul class="quick-facts">
+              <li>📍 Mumbai, India · UTC+5:30</li>
+              <li>✉️ sangharajsasane99@gmail.com</li>
+              <li>📞 +91 93720 12510</li>
+              <li>🟢 Open to work · Remote-friendly</li>
             </ul>
-        </nav>
-        <input type="text" id="search-bar" placeholder="Search...">
-    </header>
-    <main>
-        <section id="about" class="searchable">
-            <h2>About Me</h2>
-            <p>Software Engineer with expertise in Java, Spring Boot, and cloud technologies. Passionate about building scalable, efficient, and high-performance applications. Strong analytical skills with a focus on problem-solving and innovative software solutions. Experienced in designing RESTful APIs and working in Agile environments.</p>
-            <img src="assets/images/about-figma.png" alt="About Me">
-        </section>
-        <section id="experience" class="searchable">
-            <h2>Work Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <h3>Company 1</h3>
-                    <p>Role: Software Engineer</p>
-                    <p>Duration: Jan 2020 - Present</p>
-                    <p>Description: Worked on various projects involving web development and software engineering.</p>
-                    <img src="assets/NTT_Data-Logo.wine.png" alt="Company 1">
-                </div>
-                <div class="experience-card">
-                    <h3>Company 2</h3>
-                    <p>Role: Junior Developer</p>
-                    <p>Duration: Jan 2018 - Dec 2019</p>
-                    <p>Description: Assisted in the development of web applications and provided support for existing projects.</p>
-                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STRENGTHS ===== -->
+    <section class="section section-alt" id="strengths">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="section-index">02.</span> What I bring to a product team</h2>
+        <div class="strengths-grid">
+          <article class="strength reveal">
+            <span class="strength-icon" aria-hidden="true">⚙️</span>
+            <h3>Backend &amp; API engineering</h3>
+            <p>Design and operation of REST APIs in FastAPI and Spring Boot across 10+ microservices, with JWT auth, clean service boundaries and 99.9% uptime in production.</p>
+            <span class="strength-metric">10+ microservices · 99.9% uptime</span>
+          </article>
+          <article class="strength reveal">
+            <span class="strength-icon" aria-hidden="true">☁️</span>
+            <h3>Cloud &amp; serverless</h3>
+            <p>AWS Lambda event-driven automation, least-privilege IAM across 5+ production environments, Terraform infrastructure-as-code, Docker and Jenkins CI/CD.</p>
+            <span class="strength-metric">Zero audit findings · 4 quarters</span>
+          </article>
+          <article class="strength reveal">
+            <span class="strength-icon" aria-hidden="true">🧠</span>
+            <h3>GenAI in production</h3>
+            <p>LangChain/LangGraph agents and RAG pipelines with Pydantic-validated structured outputs, retry logic and evaluation against real operational data — not demos.</p>
+            <span class="strength-metric">500+ events/day analyzed</span>
+          </article>
+          <article class="strength reveal">
+            <span class="strength-icon" aria-hidden="true">📈</span>
+            <h3>Reliability &amp; delivery</h3>
+            <p>CloudWatch-driven observability, zero-downtime weekly releases, and automation-first thinking that measurably reduces toil for the people on call.</p>
+            <span class="strength-metric">MTTR cut 35%</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="section-index">03.</span> Technical skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3>Languages</h3>
+            <div class="chips"><span>Python</span><span>Java</span><span>JavaScript</span><span>SQL</span></div>
+          </div>
+          <div class="skill-card reveal feature">
+            <h3>GenAI / LLM</h3>
+            <div class="chips"><span>LangChain</span><span>LangGraph</span><span>RAG</span><span>ChromaDB</span><span>OpenAI GPT-4o</span><span>Google Gemini</span><span>Prompt Engineering</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Backend &amp; APIs</h3>
+            <div class="chips"><span>FastAPI</span><span>Spring Boot</span><span>REST APIs</span><span>Microservices</span><span>JWT</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Cloud &amp; DevOps</h3>
+            <div class="chips"><span>AWS Lambda</span><span>EC2</span><span>IAM</span><span>S3</span><span>CloudWatch</span><span>Terraform</span><span>Docker</span><span>Jenkins</span><span>CI/CD</span><span>Git</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Frontend</h3>
+            <div class="chips"><span>React.js</span><span>TailwindCSS</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Databases</h3>
+            <div class="chips"><span>PostgreSQL</span><span>MySQL</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="section-index">04.</span> Experience</h2>
+        <div class="timeline">
+          <article class="job reveal">
+            <div class="job-head">
+              <div>
+                <h3>Networking Managed Services Engineer L1</h3>
+                <p class="job-company">NTT DATA · Mumbai · Cloud Automation &amp; GenAI focus</p>
+              </div>
+              <span class="job-date">Jul 2023 — Present</span>
             </div>
-        </section>
-        <section id="projects" class="searchable">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <img src="assets/images/project1.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>Description of project 1.</p>
-                </div>
-                <div class="project-card">
-                    <img src="assets/images/project2.jpg" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>Description of project 2.</p>
-                </div>
-                <div class="project-card">
-                    <img src="assets/images/project3.jpg" alt="Project 3">
-                    <h3>Project 3</h3>
-                    <p>Description of project 3.</p>
-                </div>
-                <div class="project-card">
-                    <img src="assets/images/project4.jpg" alt="Project 4">
-                    <h3>Project 4</h3>
-                    <p>Description of project 4.</p>
-                </div>
+            <ul class="job-bullets">
+              <li><strong>Owned</strong> Python serverless automation on AWS Lambda for routine operational tasks — <mark>eliminating 70% of manual workload</mark> and cutting turnaround from hours to minutes.</li>
+              <li>Built <strong>LangChain + Python</strong> pipelines for incident analysis and report generation, <mark>reducing analyst intervention by 60%</mark> on live operational incidents.</li>
+              <li>Developed and maintained REST APIs (<strong>Spring Boot, FastAPI</strong>) across 10+ microservices, <strong>sustaining 99.9% uptime</strong> for enterprise customers.</li>
+              <li>Managed <strong>AWS IAM</strong> access controls across 5+ production environments — zero audit findings for 4 consecutive quarters.</li>
+              <li>Drove <strong>CI/CD with Docker and Jenkins</strong> for zero-downtime weekly releases; added CloudWatch monitoring that <mark>cut MTTR by 35%</mark>.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="section-index">05.</span> Featured projects</h2>
+        <div class="projects-grid">
+
+          <article class="project reveal">
+            <div class="project-head">
+              <span class="project-icon" aria-hidden="true">🛡️</span>
+              <div class="project-meta">
+                <span class="project-date">Jan 2026 — Present</span>
+                <a href="https://github.com/Sangharaj1" target="_blank" rel="noopener">GitHub ↗</a>
+              </div>
             </div>
-        </section>
-        <section id="contact" class="searchable">
-            <h2>Contact</h2>
-            <p>This section provides my contact information.</p>
-            <img src="assets/images/contact-figma.png" alt="Contact">
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 My Portfolio</p>
-    </footer>
-    <script src="scripts/main.js"></script>
+            <h3>Cloud AI Security Automation Platform</h3>
+            <dl class="case">
+              <div><dt>Problem</dt><dd>Security teams manually triaged hundreds of IAM-related events every day; policy documents were slow to search during incidents.</dd></div>
+              <div><dt>Built</dt><dd>A tool-using LLM agent that reads IAM policies, flags anomalies and writes structured incident reports, backed by a LangChain + ChromaDB RAG pipeline over policy docs — now migrating to LangGraph for multi-step state.</dd></div>
+              <div><dt>Impact</dt><dd><strong>500+ daily security events</strong> analyzed automatically; report generation down from hours to minutes.</dd></div>
+            </dl>
+            <div class="chips"><span>Python</span><span>AWS Lambda</span><span>LangChain</span><span>ChromaDB</span><span>Terraform</span></div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-head">
+              <span class="project-icon" aria-hidden="true">📄</span>
+              <div class="project-meta">
+                <span class="project-date">May 2026 — Aug 2026</span>
+                <a href="https://github.com/Sangharaj1" target="_blank" rel="noopener">GitHub ↗</a>
+              </div>
+            </div>
+            <h3>AI Resume / Job-Fit Analyzer</h3>
+            <dl class="case">
+              <div><dt>Problem</dt><dd>Applicants guess whether a resume matches a job description; keyword-only tools miss real skill overlap.</dd></div>
+              <div><dt>Built</dt><dd>A hybrid 60/40 scoring engine — LLM semantic analysis plus keyword overlap — with missing-skills detection, AI-rewritten bullets, Pydantic-validated LLM output with retries, and SSE-streamed cover-letter generation.</dd></div>
+              <div><dt>Impact</dt><dd><strong>Real-time streaming UX</strong> with validated structured outputs; deployed on Vercel for public use.</dd></div>
+            </dl>
+            <div class="chips"><span>React</span><span>FastAPI</span><span>PostgreSQL</span><span>OpenAI GPT-4o</span><span>SSE</span></div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-head">
+              <span class="project-icon" aria-hidden="true">🌐</span>
+              <div class="project-meta">
+                <span class="project-date">Dec 2025 — Jan 2026</span>
+                <a href="https://github.com/Sangharaj1" target="_blank" rel="noopener">GitHub ↗</a>
+              </div>
+            </div>
+            <h3>SmartWebAI — AI Browser Assistant</h3>
+            <dl class="case">
+              <div><dt>Problem</dt><dd>Summarizing or questioning a long web page means copy-pasting into a chatbot — slow, and it sends your data to the cloud.</dd></div>
+              <div><dt>Built</dt><dd>A Chrome extension using on-device Gemini Nano and the Chrome AI APIs with a streaming React UI.</dd></div>
+              <div><dt>Impact</dt><dd><strong>100% on-device inference</strong> — instant answers, zero API cost, fully privacy-preserving.</dd></div>
+            </dl>
+            <div class="chips"><span>Gemini Nano</span><span>Chrome AI APIs</span><span>React</span><span>TailwindCSS</span></div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-head">
+              <span class="project-icon" aria-hidden="true">🛒</span>
+              <div class="project-meta">
+                <span class="project-date">Mar 2025 — Nov 2025</span>
+                <a href="https://github.com/Sangharaj1" target="_blank" rel="noopener">GitHub ↗</a>
+              </div>
+            </div>
+            <h3>E-Commerce Microservices Platform</h3>
+            <dl class="case">
+              <div><dt>Problem</dt><dd>A monolithic storefront can't scale team or traffic independently, and auth is bolted on everywhere.</dd></div>
+              <div><dt>Built</dt><dd>Auth, product catalogue and order services as independent microservices with JWT role-based access control across 5 services and a React frontend with live cart updates.</dd></div>
+              <div><dt>Impact</dt><dd><strong>5 independently deployable services</strong>, containerized for reproducible environments and horizontal scaling.</dd></div>
+            </dl>
+            <div class="chips"><span>Spring Boot</span><span>JWT</span><span>MySQL</span><span>React</span><span>Docker</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="section-index">06.</span> Education &amp; certifications</h2>
+        <div class="edu-grid">
+          <div class="edu-card reveal">
+            <h3>B.E. Computer Science</h3>
+            <p>K.C. College of Engineering, Mumbai University</p>
+            <span class="edu-meta">2019 — 2023 · CGPA 8.50/10</span>
+          </div>
+          <div class="edu-card cert reveal"><h3>OCI Generative AI Professional</h3><span class="edu-meta">Oracle Cloud · Oct 2025</span></div>
+          <div class="edu-card cert reveal"><h3>OCI Developer Professional</h3><span class="edu-meta">Oracle Cloud · Oct 2025</span></div>
+          <div class="edu-card cert reveal"><h3>OCI DevOps Professional</h3><span class="edu-meta">Oracle Cloud · Oct 2025</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="container center">
+        <h2 class="section-title reveal"><span class="section-index">07.</span> Let's build something</h2>
+        <p class="contact-lead reveal">
+          I'm open to software engineering roles at product-minded teams — backend/platform,
+          cloud, or GenAI. If you're hiring, my inbox is always open and I reply within a day.
+        </p>
+        <div class="contact-actions reveal">
+          <a href="mailto:sangharajsasane99@gmail.com" class="btn btn-primary">✉️ sangharajsasane99@gmail.com</a>
+          <a href="tel:+919372012510" class="btn btn-ghost">📞 +91 93720 12510</a>
+        </div>
+        <div class="socials reveal">
+          <a href="https://linkedin.com/in/sangharaj-sasane-bb64a5307" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/Sangharaj1" target="_blank" rel="noopener">GitHub</a>
+          <a href="Sangharaj_Sasane_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; built by Sangharaj Sasane · © 2026 · Open to opportunities</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
